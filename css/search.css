@@ -1,0 +1,51 @@
+﻿  @charset"utf-8";
+   @import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+   
+  a {outline:0; color:#bbb; text-decoration:none;}
+  
+  .spacial-controls {
+  position:absolute; top:0; right:0; z-index:999;}
+  
+  .spacial-controls .search-switch {
+  display:block;
+  height:100%;
+  margin-top:10px; 
+  margin-right:15px;
+  text-align:center;
+  cursor:pointer;}
+  
+  .search-modal  {
+ display:none;  
+  position:fixed;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  background:rgba(0,0,0,0.9);
+  z-index:99999999999;
+  }
+  
+  .search-moderl-form {
+  padding:0 10%;
+  position:absolute; top:50%; left:50%; margin-left:-250px;
+  }
+  
+ .search-moderl-form input {
+ width:380px; 
+ font-size:30px;
+ border:none;
+ border-bottom:2px solid #333;
+ background:none;
+ color:#999;
+ outline:none; 
+ font-family:Open Sans; 
+ }
+ 
+ .search-close-switch {
+ position:absolute;
+color:#fff;
+ text-align:center; 
+ padding-top:7px; font-size:21px;
+ top:8%; right:8%; cursor:pointer;}
+ 
+ .search-close-switch img {width:35px; height:35px;}
